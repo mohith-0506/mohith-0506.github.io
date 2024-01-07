@@ -5,8 +5,8 @@ body {
     background-color: rgb(97, 193, 56);
 }
 img{
-    width: 1500px;
-    height: 700px;
+    width: auto;
+    height: 90%;
 }
 
 .top-left {

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome !</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://wallpapers.com/images/hd/green-snake-game-character-bqvxt2p5oibadgqn.jpg" alt="">
+        <p></p>
+        
+        <div class="top-left">
+            <h1 class="heading">Welcome to Snake Game!!</h1>
+            <ul class="transition-list">
+                <li class="transition-item">
+                    <h3>Instructions to the game :</h3>
+                    <ul>
+                        
+                        <li>Use the arrow keys (up,down,left,right) to control the movement of the snake</li>
+                        <li>The blue one indicates snake and the red one indicates apple </li>
+                        <li>The snake grows its size by 1 unit when it eats 1 apple</li>
+                    </ul>
+                </li>
+                
+                <li class="transition-item"><h4>Restricted Areas:</h4>
+                    <ul>
+                        <li>Top and Bottom rows of the board</li>
+                        <li>Left and Right columns of the board</li>
+                        <li>In the above mentioned areas, for user convenience, the snake will change its movement automatically in clockwise direction</li>
+                    </ul>
+                </li>
+                <li class="transition-item"><h4>The Game is Over when:</h4>
+                    <ul>
+                        <li>The Snake's head touches its body</li>
+                        <li>When the snake enters the restricted area, and you try to change the direction of the snake to outside the board</li>
+                    </ul>
+                </li>
+                <h2 class="transition-item">After reading all the instructions, proceed to the game by clicking the "Play the Game" button</h2>
+                <button class="transition-item" type="button" onclick="window.location.href='snake_game.html'">Play the Game</button>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="2.js"></script>
+</body>
+</html>

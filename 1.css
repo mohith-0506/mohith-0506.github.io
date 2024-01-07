@@ -1,0 +1,56 @@
+body{
+    background-color: #413f3f ;
+    text-align: center;
+}
+
+.apple{
+    width: 5%;
+    margin-left: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+}
+
+.index{
+    background-color: rgb(56, 177, 65);
+    margin : 0px 700px 0px 700px;
+    padding: 10px 100px 10px 0px;
+    border: 10px solid black;
+}
+
+.trophy{
+    width: 6%;
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+div{
+    display: flex;
+}
+
+#snbrd{
+    width: 100%;
+}
+
+.score{
+    text-align: center;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.highs{
+    text-align: center;
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+
+.navi{
+    background-color: rgb(53, 120, 120);
+    margin: 0px 350px 10px 350px;
+}

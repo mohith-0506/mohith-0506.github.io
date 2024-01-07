@@ -1,5 +1,6 @@
 .apple{
-    width: 6%;
+    width: auto;
+    height: 40%;
     margin-left: 150px;
     margin-top: auto;
     margin-bottom: 5px;
@@ -7,7 +8,8 @@
 }
 
 .trophy{
-    width: 6%;
+    width: auto;
+    height: 40%;
     margin-left: 100px;
     margin-right: 0px;
     margin-top: auto;
@@ -24,22 +26,32 @@ div{
 
 .score{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
+    padding-top: 55px;
+    padding-bottom: 30px;
     margin-left: 10px;
 }
 
 .highs{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 0px;
+    padding-top: 55px;
+    padding-bottom: 30px;
     margin-left: 5px;
 }
 
 .navi{
-    background-color: rgb(53, 120, 120);
-    margin: 0px 450px 10px 450px;
-    padding: 45px 0px 0px 0px;
+    background-color: rgb(123, 106, 106);
+    margin-top: 80px;
+    height: 100px;
+    width: 40%;
+    /* margin: 0px 450px 10px 450px; */
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-right: 0%;
+    padding-left: auto;
 }
 
 body {

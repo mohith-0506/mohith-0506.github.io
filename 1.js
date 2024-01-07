@@ -29,6 +29,33 @@ window.onload = function(){
     context = board.getContext("2d");
     placeFood();
     document.addEventListener("keydown", ChangeDirection);
+    document.getElementById("upBtn").addEventListener("click", function() {
+        if (velocityY != 1) {
+            velocityX = 0;
+            velocityY = -1;
+        }
+    });
+
+    document.getElementById("leftBtn").addEventListener("click", function() {
+        if (velocityX != 1) {
+            velocityX = -1;
+            velocityY = 0;
+        }
+    });
+
+    document.getElementById("downBtn").addEventListener("click", function() {
+        if (velocityY != -1) {
+            velocityX = 0;
+            velocityY = 1;
+        }
+    });
+
+    document.getElementById("rightBtn").addEventListener("click", function() {
+        if (velocityX != -1) {
+            velocityX = 1;
+            velocityY = 0;
+        }
+    });
     setInterval(update,100);
 }
 

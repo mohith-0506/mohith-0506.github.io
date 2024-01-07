@@ -1,6 +1,7 @@
 body {
     display: flex;
     height: 100vh;
+    flex-direction: column;
     background-color: rgb(97, 193, 56);
 }
 img{
@@ -55,4 +56,11 @@ button:hover {
 .transition-item.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        width: 100vw;
+        height: 80vw;
+    }
 }

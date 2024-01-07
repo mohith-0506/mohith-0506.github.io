@@ -28,7 +28,7 @@ window.onload = function(){
     board.width = col * blocksize;
     context = board.getContext("2d");
     placeFood();
-    document.addEventListener("keyup", ChangeDirection);
+    document.addEventListener("keydown", ChangeDirection);
     setInterval(update,100);
 }
 
@@ -124,19 +124,19 @@ function placeFood(){
 }
 
 function ChangeDirection(e){
-    if(e.code == "ArrowUp" && velocityY != 1){
+    if(e.key == "w" && velocityY != 1){
         velocityX = 0;
         velocityY = -1;
     }
-    if(e.code == "ArrowDown" && velocityY != -1){
+    if(e.key == "s" && velocityY != -1){
         velocityX = 0;
         velocityY = 1;
     }
-    if(e.code == "ArrowRight" && velocityX != -1){
+    if(e.key == "d" && velocityX != -1){
         velocityX = 1;
         velocityY = 0;
     }
-    if(e.code == "ArrowLeft" && velocityX != 1){
+    if(e.key == "a" && velocityX != 1){
         velocityX = -1;
         velocityY = 0;
     }
